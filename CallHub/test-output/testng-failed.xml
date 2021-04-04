@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Validating Monthly  Subscription">
+    <classes>
+      <class name="Academy.MonthlySubscriptionTest"/>
+    </classes>
+  </test> <!-- Validating Monthly  Subscription -->
+  <test name="Validating Quarterly Subscription">
+    <classes>
+      <class name="Academy.QuaterlySubscriptionTest"/>
+    </classes>
+  </test> <!-- Validating Quarterly Subscription -->
+  <test name="Validating Half Yearly Subscription">
+    <classes>
+      <class name="Academy.HalfYearlySubscriptionTest"/>
+    </classes>
+  </test> <!-- Validating Half Yearly Subscription -->
+  <test name="Validating Yearly Subscription">
+    <classes>
+      <class name="Academy.YearlySubscriptionTest"/>
+    </classes>
+  </test> <!-- Validating Yearly Subscription -->
+  <test name="Validating Yearly Subscription(failed)">
+    <classes>
+      <class name="Academy.MonthlySubscriptionTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- Academy.MonthlySubscriptionTest -->
+      <class name="Academy.HalfYearlySubscriptionTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- Academy.HalfYearlySubscriptionTest -->
+      <class name="Academy.QuaterlySubscriptionTest">
+        <methods>
+          <include name="initialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Academy.QuaterlySubscriptionTest -->
+      <class name="Academy.YearlySubscriptionTest">
+        <methods>
+          <include name="initialize"/>
+          <include name="yearlySubscriptionTest"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Academy.YearlySubscriptionTest -->
+    </classes>
+  </test> <!-- Validating Yearly Subscription(failed) -->
+</suite> <!-- Failed suite [Suite] -->

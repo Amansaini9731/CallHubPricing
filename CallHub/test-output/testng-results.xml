@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="8" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="56166" started-at="2021-04-04T01:40:25Z" finished-at="2021-04-04T01:41:21Z">
+    <groups>
+    </groups>
+    <test name="Validating Monthly  Subscription" duration-ms="12989" started-at="2021-04-04T01:40:25Z" finished-at="2021-04-04T01:40:38Z">
+      <class name="Academy.MonthlySubscriptionTest">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Academy.MonthlySubscriptionTest@7219ec67]" name="initialize" is-config="true" duration-ms="4534" started-at="2021-04-04T07:10:25Z" finished-at="2021-04-04T07:10:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="SetupMethod()[pri:0, instance:Academy.MonthlySubscriptionTest@7219ec67]" name="SetupMethod" duration-ms="4582" started-at="2021-04-04T07:10:29Z" finished-at="2021-04-04T07:10:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetupMethod -->
+        <test-method status="PASS" signature="monthlySubscriptionTest()[pri:1, instance:Academy.MonthlySubscriptionTest@7219ec67]" name="monthlySubscriptionTest" duration-ms="3591" started-at="2021-04-04T07:10:34Z" finished-at="2021-04-04T07:10:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- monthlySubscriptionTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Academy.MonthlySubscriptionTest@7219ec67]" name="teardown" is-config="true" duration-ms="259" started-at="2021-04-04T07:10:38Z" finished-at="2021-04-04T07:10:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Academy.MonthlySubscriptionTest -->
+    </test> <!-- Validating Monthly  Subscription -->
+    <test name="Validating Quarterly Subscription" duration-ms="15429" started-at="2021-04-04T01:40:38Z" finished-at="2021-04-04T01:40:53Z">
+      <class name="Academy.QuaterlySubscriptionTest">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Academy.QuaterlySubscriptionTest@6b26e945]" name="initialize" is-config="true" duration-ms="1454" started-at="2021-04-04T07:10:38Z" finished-at="2021-04-04T07:10:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="SetupMethod()[pri:0, instance:Academy.QuaterlySubscriptionTest@6b26e945]" name="SetupMethod" duration-ms="5975" started-at="2021-04-04T07:10:39Z" finished-at="2021-04-04T07:10:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetupMethod -->
+        <test-method status="PASS" signature="quarterlySubscriptionTest()[pri:1, instance:Academy.QuaterlySubscriptionTest@6b26e945]" name="quarterlySubscriptionTest" duration-ms="7807" started-at="2021-04-04T07:10:45Z" finished-at="2021-04-04T07:10:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quarterlySubscriptionTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Academy.QuaterlySubscriptionTest@6b26e945]" name="teardown" is-config="true" duration-ms="190" started-at="2021-04-04T07:10:53Z" finished-at="2021-04-04T07:10:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Academy.QuaterlySubscriptionTest -->
+    </test> <!-- Validating Quarterly Subscription -->
+    <test name="Validating Half Yearly Subscription" duration-ms="13799" started-at="2021-04-04T01:40:53Z" finished-at="2021-04-04T01:41:07Z">
+      <class name="Academy.HalfYearlySubscriptionTest">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Academy.HalfYearlySubscriptionTest@1a04f701]" name="initialize" is-config="true" duration-ms="1464" started-at="2021-04-04T07:10:53Z" finished-at="2021-04-04T07:10:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="SetupMethod()[pri:0, instance:Academy.HalfYearlySubscriptionTest@1a04f701]" name="SetupMethod" duration-ms="3893" started-at="2021-04-04T07:10:55Z" finished-at="2021-04-04T07:10:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetupMethod -->
+        <test-method status="PASS" signature="halfYearlySubscriptionTest()[pri:1, instance:Academy.HalfYearlySubscriptionTest@1a04f701]" name="halfYearlySubscriptionTest" duration-ms="8236" started-at="2021-04-04T07:10:59Z" finished-at="2021-04-04T07:11:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- halfYearlySubscriptionTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Academy.HalfYearlySubscriptionTest@1a04f701]" name="teardown" is-config="true" duration-ms="201" started-at="2021-04-04T07:11:07Z" finished-at="2021-04-04T07:11:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Academy.HalfYearlySubscriptionTest -->
+    </test> <!-- Validating Half Yearly Subscription -->
+    <test name="Validating Yearly Subscription" duration-ms="13889" started-at="2021-04-04T01:41:07Z" finished-at="2021-04-04T01:41:21Z">
+      <class name="Academy.YearlySubscriptionTest">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Academy.YearlySubscriptionTest@5276e6b0]" name="initialize" is-config="true" duration-ms="1459" started-at="2021-04-04T07:11:07Z" finished-at="2021-04-04T07:11:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="SetupMethod()[pri:0, instance:Academy.YearlySubscriptionTest@5276e6b0]" name="SetupMethod" duration-ms="4346" started-at="2021-04-04T07:11:09Z" finished-at="2021-04-04T07:11:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetupMethod -->
+        <test-method status="FAIL" signature="yearlySubscriptionTest()[pri:1, instance:Academy.YearlySubscriptionTest@5276e6b0]" name="yearlySubscriptionTest" duration-ms="7931" started-at="2021-04-04T07:11:13Z" finished-at="2021-04-04T07:11:21Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at Academy.YearlySubscriptionTest.yearlySubscriptionTest(YearlySubscriptionTest.java:108)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- yearlySubscriptionTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Academy.YearlySubscriptionTest@5276e6b0]" name="teardown" is-config="true" duration-ms="147" started-at="2021-04-04T07:11:21Z" finished-at="2021-04-04T07:11:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Academy.YearlySubscriptionTest -->
+    </test> <!-- Validating Yearly Subscription -->
+  </suite> <!-- Suite -->
+</testng-results>
